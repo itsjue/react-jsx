@@ -26,7 +26,8 @@ function IntroSection() {
         techupth.com
       </a>
       {/* ให้แสดงวันเวลาด้วย Function `getCurrentDateTime` ที่กำหนดไว้ให้ */}
-      <p>{getCurrentDateTime()}</p>
+      <div className="bootcamp-start-time">วันเวลาเริ่มหลักสูตร คือ {getCurrentDateTime()} </div>
+      <p></p>
     </div>
   );
 }
